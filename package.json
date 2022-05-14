@@ -1,0 +1,21 @@
+{
+  "name": "sentinelone-cw",
+  "version": "1.0.0",
+  "description": "Service for creating actionable ticket items in ConnectWise Manage from Sentinel One threats and alerts",
+  "main": "index.js",
+  "dependencies": {
+    "connectwise-rest": "^0.24.0",
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "senitnelone",
+    "connectwise",
+    "manage"
+  ],
+  "author": "Ted Williams",
+  "license": "LicenseRef-LICENSE"
+}

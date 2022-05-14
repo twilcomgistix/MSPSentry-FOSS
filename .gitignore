@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+service.sh
+build.sh
+environment.js
+catchall.js

@@ -1,0 +1,5 @@
+service.sh
+.vscode/
+.git/
+.gitignore
+.env
