@@ -90,5 +90,3 @@ sentinelOne.getToken(process.env.apiToken).then(d => {
 If you know what you're doing with Node.Js, then this should be straightforward. If not, set the token in the `--env` argument on your Docker run command and be sure to update it once every 6 months.
 
 I have not included any of the database or secrets encryption source code used by the [MSP Sentry](https://mspsentry.com) hosted service in this repository.
-
-You could use SQL or NoSQL or whatever you like to store that secret if you're motivated enough.
