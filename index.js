@@ -3,7 +3,6 @@
  */
 
 require('dotenv').config();
-const envPath = ".env";
 const crypto = require('crypto');
 const connectwise = require('./bin/connectwise');
 const sentinelOne = require('./bin/sentinelone');
