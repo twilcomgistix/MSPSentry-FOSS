@@ -3,7 +3,6 @@
  */
 
 require('dotenv').config();
-const { parse, stringify } = require('envfile')
 const envPath = ".env";
 const crypto = require('crypto');
 const connectwise = require('./bin/connectwise');
