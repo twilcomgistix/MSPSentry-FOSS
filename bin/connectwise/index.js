@@ -6,7 +6,6 @@ require('dotenv').config();
 const { Long } = require('bson');
 const ConnectWiseRest = require('connectwise-rest');
 const { config } = require('dotenv');
-const db = require('../db');
 
 
 // API Connection for CW Manage
